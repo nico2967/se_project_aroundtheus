@@ -21,20 +21,23 @@
   padding-right: 20px;
   align-items: center;
   justify-content: space-between;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
+
 .card__title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  font-family: "Inter-black";
+  font-family: "Inter-black", Inter;
+  margin: 0 0;
 }
 
 .card__like-button {
   background: transparent url(../images/likebutton.svg) center no-repeat;
-  width: 21px;
+  flex: 0 0 21px;
   height: 18px;
   border: 0;
+}
+
+.card__like-button:hover {
+  cursor: pointer;
 }

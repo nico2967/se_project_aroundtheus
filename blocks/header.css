@@ -1,5 +1,11 @@
 .header {
-  margin-top: 45px;
+  padding-top: 28px;
+}
+
+@media screen and (min-width: 880px) {
+  .header {
+    margin-top: 45px;
+  }
 }
 
 .header::before {
