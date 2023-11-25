@@ -27,7 +27,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  font-family: "Inter-black", Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 900;
   margin: 0 0;
 }
 

@@ -16,11 +16,10 @@
 
 .profile__edit-button {
   background: transparent url(../images/edittbutton.svg) center no-repeat;
-  height: 18px;
-  width: 18px;
+  height: 24px;
+  width: 24px;
   grid-area: button;
   border: 1px solid #fff;
-  margin-left: 43px;
 }
 
 .profile__edit-button:hover {
@@ -40,15 +39,15 @@
 }
 
 .profile__title {
-  font-size: 48px;
   line-height: 48px;
   grid-area: title;
   margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  font-family: "Inter-Regular";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 500;
+  font-size: 42px;
 }
 
 .profile__description {
@@ -60,7 +59,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  font-family: "Inter-Medium";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   margin-bottom: 14px;
   grid-gap: 7px;
 }
@@ -104,5 +103,7 @@
 
   .profile__edit-button {
     margin-left: 10px;
+    height: 18px;
+    width: 18px;
   }
 }
