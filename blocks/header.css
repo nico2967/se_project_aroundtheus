@@ -1,12 +1,6 @@
 .header {
   padding-top: 28px;
-  padding-bottom: 40px;
-}
-
-@media screen and (min-width: 880px) {
-  .header {
-    margin-top: 45px;
-  }
+  padding-bottom: 28px;
 }
 
 .header::before {
@@ -19,4 +13,23 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
+}
+
+.header__image {
+  width: 173px;
+  height: 33px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 880px) {
+  .header {
+    margin: 0;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+
+  .header__image {
+    width: 126px;
+    height: 24px;
+  }
 }

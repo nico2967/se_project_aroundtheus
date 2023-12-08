@@ -4,16 +4,17 @@
 }
 
 .page__section {
-  max-width: 880px;
   width: 100%;
+  max-width: 880px;
+  box-sizing: border-box;
   position: relative;
   margin: 0 auto;
 }
+
 .page__content {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   -webkit-font-smooothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 0 20px;
 }
