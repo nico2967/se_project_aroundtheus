@@ -1,9 +1,5 @@
 # Project 3: Around The U.S.
 
-Around The U.S
-HTML
-CSS
-
 ### Overview
 
 - Intro
@@ -23,3 +19,11 @@ This project is made so all the elements are displayed correctly on popular scre
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
 
 Good luck and have fun!
+
+Project Name: Around The U.S
+
+Project Description: The project displays images and locations visited by Jacques Cousteau.
+
+Technologies Used: Project 3 "Around The U.S." utilizes HTML and CSS. Rows, grids, media queries and columns were also utilized in this project.
+
+Link to Github: https://github.com/nico2967/se_project_aroundtheus.git
