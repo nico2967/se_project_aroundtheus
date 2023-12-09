@@ -26,4 +26,4 @@ Project Description: The project displays images and locations visited by Jacque
 
 Technologies Used: Project 3 "Around The U.S." utilizes HTML and CSS. Rows, grids, media queries and columns were also utilized in this project.
 
-Link to Github: https://github.com/nico2967/se_project_aroundtheus.git
+Link to Github: https://{nico2967}.gitub.io/{se_project_aroundtheus}

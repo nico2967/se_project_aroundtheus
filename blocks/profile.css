@@ -2,8 +2,6 @@
   display: flex;
   align-items: center;
   padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
   box-sizing: border-box;
 }
 
@@ -76,7 +74,15 @@
   background-position: center;
   margin-right: 24px;
 }
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 770px) {
+  .profile__add-button {
+    margin: 0 0 0 8px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
   .profile {
     flex-direction: column;
     padding-left: 0;
