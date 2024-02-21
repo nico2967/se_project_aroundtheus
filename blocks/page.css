@@ -1,6 +1,5 @@
 .page {
   background-color: black;
-  color: white;
 }
 
 .page__section {
@@ -17,4 +16,8 @@
   min-height: 100vh;
   -webkit-font-smooothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  padding: 0;
 }
